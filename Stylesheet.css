@@ -1,0 +1,270 @@
+body {background-color: white;
+     width:1020px;
+    margin-left: 50px;
+}
+
+/* Dropdown START */
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-top: -18px;
+    float: left;
+    margin-left: 3px;
+}
+
+nav ul ul {
+
+    display: none
+}
+
+
+nav ul li:hover ul {
+
+    display: block
+}
+
+
+nav ul {
+
+    background: black;
+
+    list-style: none;
+
+    position: relative;
+
+    display: inline-table;
+
+}
+
+
+
+nav ul:after {
+
+    content: ""; clear: both; display: block;
+
+}
+
+
+
+
+nav ul li {
+
+    float: left;
+
+}
+
+nav ul li:hover a {
+
+    color: #fff;
+
+}
+
+nav ul li a {
+
+    display: block;
+    padding: 20px 40px;
+
+    color: #757575;
+    text-decoration: none;
+
+}
+
+nav ul ul {
+
+    background: #5f6975; border-radius: 1px; padding: 0;
+
+    position: relative; top: 100%;
+
+}
+
+nav ul ul li {
+
+    float: none;
+
+    border-top: 1px solid #6b727c;
+
+    border-bottom: 1px solid #575f6a;
+
+    position: relative;
+
+}
+
+nav ul ul li a {
+
+    padding: 15px 40px;
+
+    color: #fff;
+
+}
+
+nav ul ul li a:hover {
+
+    background: #4b545f;
+
+}
+
+nav ul ul ul {
+
+    position: relative; left: 100%; top:0;
+
+}
+
+.psd
+{
+
+    height: 400px;
+    width: 100%;
+    background-color: #16b0c3;
+    margin-top: -18px;
+    float: left;
+    margin-left: 3px;
+   
+}
+
+.psd h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.psd p {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.three {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-left: 3px;
+
+}
+
+.three_first {
+    height: 200px;
+    width: 80%;
+    background-color: black;
+    float: left;
+
+}
+
+.three_second {
+    height: 200px;
+    width: 20%;
+    background-color: #bc3183;
+    float: left;
+}
+
+.three_first p {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    color: #9383a1;
+    font-size: 28px;
+}
+
+
+
+.four {
+    height: 207px;
+    width: 100%;
+    margin-left: 3px;
+    float: left;
+}
+
+.four_first {
+    height: 207px;
+    width: 34%;
+    background-color: #660099;
+    float: left;
+}
+
+.four_second {
+    height: 207px;
+    width: 33%;
+    float: left;
+}
+
+.four_second img{
+    height: 207px;
+    width: 337px;
+    float: left;
+}
+
+.four_thirdt {
+    height: 207px;
+    width: 33%;
+    float: left;
+}
+
+.four_thirdt img {
+    height: 207px;
+    width: 337px;
+    float: left;
+}
+
+.five {
+    height: 300px;
+    width: 100%;
+    background-color: #cccccc;
+    margin-top: -18px;
+    float: left;
+    margin-left: 3px;
+}
+
+.five_first {
+    height: 300px;
+    width: 50%;
+    background-color: #cccccc;
+    float: left;
+}
+
+.five_first h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: #009999;
+    font-size: 20px;
+}
+
+.five_first p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+
+
+
+.five_second {
+    height: 300px;
+    width: 50%;
+    background-color: #cccccc;
+    float: left;
+}
+
+.five_second p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
